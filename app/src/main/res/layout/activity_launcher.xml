@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".launcher_activity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/name"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the Student Name"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#EAB5B5"
+        />
+    <EditText
+        android:id="@+id/passmarks"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the obtained Marks"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#EAB5B5"
+        />
+    <EditText
+        android:id="@+id/fullmarks"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the full Marks"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#EAB5B5"
+        />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textAlignment="center"
+        />
+</LinearLayout>
